@@ -9,7 +9,7 @@
 
 use strict;
 use warnings;
-use Convert::Bencode_XS qw(bencode bdecode);
+use Bencode qw(bencode bdecode);
 use File::Spec;  # core module
 use POSIX;       # core module
 
